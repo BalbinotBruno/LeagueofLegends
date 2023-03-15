@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <header id="cabecalho">
+      <div class="posicao">
+        <li>
+          <img class="tamanho-logo" src="icones/riot.png" alt="icone riot">
+        </li>
+        <li>
+          <a href="index.html"><img class="tamanho-logo"  src="icones/inicio.png" alt="tela inicial"></a>
+        </li>
+      </div>
       <nav>
         <ul id="menu">
-          <li>
-            <img class="tamanho-logo" src="icones/riot.png" alt="icone riot">
-          </li>
-          <li>
-            <a href="index.html"><img class="tamanho-logo"  src="icones/inicio.png" alt="tela inicial"></a>
-          </li>
           <li>
             <a href="https://www.leagueoflegends.com/pt-br/how-to-play/">O JOGO</a>
           </li>
@@ -44,15 +46,16 @@
           <li>
             <input id="pesquisa" type="text">
           </li>
-          <li>
-            <input id="btni" class="menu-button" type="button" value="INICIAR SESSÃO">
-          </li>
-          <li>
-            <input id="btnj" class="menu-button" type="button" value="JOGUE AGORA">
-          </li>
         </ul>
       </nav>
+      <div class="posicao">
+        <li>
+          <input id="btni" class="menu-button" type="button" value="INICIAR SESSÃO">
+        </li>
+        <li>
+          <input id="btnj" class="menu-button" type="button" value="JOGUE AGORA">
+        </li>
+      </div>
     </header>
-    <video id="video" src="https://www.leagueoflegends.com/static/hero-0632cbf2872c5cc0dffa93d2ae8a29e8.webm"></video>
   </body>
 </html>
