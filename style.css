@@ -7,26 +7,28 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#cabecalho{
+#cabecalho {
   display: flex;
   width: 100vw;
-  position:relative;
+  position: relative;
   height: 85px;
 }
 
-.posicao{
-display: flex;
-background-color: #111111;
-list-style-type: none;
-justify-content: space-around;
-align-items: center;
+.posicao {
+  display: flex;
+  background-color: #111111;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
 }
+
 nav {
   width: 100vw;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 #menu {
   display: flex;
   background-color: #111111;
@@ -36,31 +38,38 @@ nav {
   width: 100%;
   height: 85px;
 }
+
 #menu li {
   list-style-type: none;
   padding: 15px;
 }
+
 #menu li:hover {
-  border-bottom: 4px solid #00A0BA; 
+  border-bottom: 4px solid #00A0BA;
 }
+
 .tamanho-logo {
   padding: 10px;
   width: 50px;
   height: 50px;
   margin: 10px;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 #pesquisa {
   border-radius: 50px;
   height: 30px;
   border: none;
 }
+
 #pesquisar:focus {
   outline: none;
 }
+
 .menu-button {
   border-radius: 15px;
   width: 140px;
@@ -70,17 +79,88 @@ a {
   cursor: pointer;
   margin: 10px;
 }
+
 #btni {
   background-color: #282828;
   color: white;
 }
+
 #btnj {
   background-color: #0C98AE;
   color: black;
 }
+
 #btni:hover {
   background-color: #282828e0;
 }
+
 #btnj:hover {
   background-color: #0c98aece;
+}
+
+span {
+  color: #AAEBF5;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+
+
+
+#menu-pesquisa{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+}
+
+
+
+#texto-em-destaque {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#destaque-campeao {
+  font-size: 4em;
+  color: black;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: unset;
+  display: block;
+  position: relative;
+}
+
+#texto-principal {
+  width: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+}
+
+#navegacao {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-color: blue;
+  display: flex;
+}
+
+#destaque {
+  writing-mode: vertical-lr;
+  text-orientation: inherit;
+  background-color: red;
+}
+
+#position{
+  width: 100%;
+  position: relative;
+  background-color: green;
+  display: block;
 }
