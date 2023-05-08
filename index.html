@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="scroll">
   <header id="cabecalho">
     <div class="posicao">
       <li>
@@ -63,36 +63,82 @@
 
   <div id="position">
     <div id="navegacao">
-        <div>
+      <div class="border">
+        <div class="img-destaque">
           <p id="destaque">EM DESTAQUE -</p>
-        </div>
-      <div>
-        <img src="imagens/KSante.jpg" alt="">
-      </div>
-      <div>
-        <img src="imagens/Pyke.jpg" alt="">
-      </div>
-      <div>
-        <img src="imagens/Historia.jpg" alt="">
-      </div>
-      <div id="texto-principal">
-        <h1 id="texto-em-destaque">Escolha seu <span id="destaque-campeao">CAMPEÃO</span></p>
-        </h1>
-        <p id="resto-do-texto">Com mais de 140 Campeões, você encontrará a combinação perfeita para seu estilo de jogo.
-          Especialize-se em um
-          estilo ou em todos.</p>
-      </div>
-      <div id="menu-pesquisa">
-        <div>
-          <img src="./icones/search.png" alt="">
-        </div>
-        <input type="text" name="" id="">
-        <div>
-          <img src="./icones/x_icon.png" alt="">
+          <img id="borda" src="imagens/KSante.jpg" alt="">
+          <div id="alinhamneto-ksante">
+            <h1 class="decoration-ciano">ATUALIZÇÕES DO JOGO</h1>
+            <P class="decoration-texto">CAMPEÃO EM DESTAQUE: K'SANTE</P>
+          </div>
         </div>
       </div>
+      <div>
+        <div class="img-destaque">
+          <img src="imagens/Pyke.jpg" alt="">
+          <div id="alinhamneto-ksante">
+            <h1 class="decoration-ciano">DEV</h1>
+            <P class="decoration-texto-pequeno">CAMPEÃO EM DESTAQUE: K'SANTE</P>
+          </div>
+        </div>
+
+      </div>
+      <div>
+        <div class="img-destaque">
+          <img src="imagens/Historia.jpg" alt="">
+          <div id="alinhamneto-ksante">
+            <h1 class="decoration-ciano">HISTÓRIA</h1>
+            <P class="decoration-texto-pequeno">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>
+          </div>
+        </div>
+      </div>
+    </div id="centralizacao">
+    <div id="texto-principal">
+      <h1 id="texto-em-destaque">Escolha seu <span id="destaque-campeao">CAMPEÃO</span></p>
+      </h1>
+      <p id="resto-do-texto">Com mais de 140 Campeões, você encontrará a combinação perfeita para seu estilo de jogo.
+        Especialize-se em um
+        estilo ou em todos.</p>
+    </div>
+    <div id="menu-pesquisa">
+      <input type="text" name="" id="barra-pesquisa">
+      <ul id="lista-pesquisa">
+        <li>
+          <img src="./icones/search.png" alt="icone de pesquisa">
+        <li>BUSCAR</li>
+        </li>
+        <li class="posicao-barra-pesquisa">Todos</li>
+        <li class="posicao-barra-pesquisa">Assasinos</li>
+        <li class="posicao-barra-pesquisa">Lutadores</li>
+        <li class="posicao-barra-pesquisa">Magos</li>
+        <li class="posicao-barra-pesquisa">Atiradores</li>
+        <li class="posicao-barra-pesquisa">Suportes</li>
+        <li class="posicao-barra-pesquisa">Tanques</li>
+        <li>
+        <li><input type="hidden">Todas Dificuldades</li>
+        </li>
+      </ul>
     </div>
   </div>
+  </div>
+  </div>
+  <div>
+    <ul id="posicao-campeoes">
+      <li><img class="img-campeao" src="imagens/campeoes/aatrox.jpg" alt="aatrox"></li>
+      <li><img class="img-campeao" src="imagens/campeoes/ahri.jpg" alt="ahri"></li>
+      <li><img class="img-campeao" src="imagens/campeoes/akali.jpg" alt="Akali"></li>
+      <li><img class="img-campeao" src="imagens/campeoes/akshan.jpg" alt="Akshan"></li>
+      <li><img class="img-campeao" src="imagens/campeoes/alistar.jpg" alt="Alistar"></li>
+    </ul>
+  </div>
+
+  <div>
+
+  </div>
+
+
+
+
 
 </body>
 

@@ -7,6 +7,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 #cabecalho {
   display: flex;
   width: 100vw;
@@ -14,7 +16,10 @@
   height: 85px;
 }
 
-.posicao {
+body{
+  position: relative;
+
+}.posicao {
   display: flex;
   background-color: #111111;
   list-style-type: none;
@@ -104,20 +109,42 @@ span {
   font-weight: bolder;
 }
 
-
-
-
-#menu-pesquisa{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  display: block;
+.img-destaque{
+  display: flex;
+  
+}
+  
+  
+.border{
+  border: 1px solid gray;
 }
 
+  #alinhamento-ksante{
+    display: block;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 
+  .decoration-texto-pequeno{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
+  .decoration-ciano{
+    color: #00A0BA;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .decoration-texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+
+  }
 #texto-em-destaque {
   font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
@@ -135,32 +162,87 @@ span {
 }
 
 #texto-principal {
-  width: 700px;
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  display: block;
+  display: block; 
+  border: 1px solid green;
 }
 
 #navegacao {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  background-color: blue;
-  display: flex;
+  position: relative;
 }
 
 #destaque {
   writing-mode: vertical-lr;
   text-orientation: inherit;
-  background-color: red;
+
 }
 
 #position{
   width: 100%;
   position: relative;
-  background-color: green;
   display: block;
 }
+
+#centralizacao{
+  position: relative;
+}
+
+
+#menu-pesquisa{
+  position: relative;
+  margin: auto;
+  display: flex;
+
+}
+
+#barra-pesquisa{
+  width: 1750px;
+  height: 70px;
+  border: 1px solid black;
+  display: flex;
+  position: fixed;
+}
+
+  .posicao-barra-pesquisa{
+    top: 50%;
+    left: 50%;
+    translate: translate(-50%, -50%);
+    width: 100%;
+    margin: 10px;
+    color: gray;
+  }
+
+  #lista-pesquisa{
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 80px;
+    position: relative;
+  }
+
+  #posicao-campeoes{
+    margin-top: 600px;
+    display: flex;
+    position: fixed;
+  }
+  .img-campeao{
+    margin: 20px;
+   
+  }
+
+  #busca-principal{
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
