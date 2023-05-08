@@ -165,10 +165,9 @@ span {
 }
 
 #texto-principal {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 800px;
+  margin-top: 50px;
   text-align: center;
   display: block;
   border: 1px solid green;
@@ -187,10 +186,9 @@ span {
 
 }
 
-#position {
+#content {
   width: 100%;
   position: relative;
-  display: block;
 }
 
 #centralizacao {
@@ -199,12 +197,11 @@ span {
 
 
 #menu-pesquisa {
-  position: relative;
+
   margin: auto;
   display: flex;
   height: 50px;
   overflow: hidden;
-
 }
 
 .input-search {
@@ -253,10 +250,9 @@ span {
   position: relative;
 }
 
-#posicao-campeoes {
-  margin-top: 600px;
+#posicao-campeoes ul {
   display: flex;
-  position: fixed;
+  list-style-type: none;
 }
 
 .img-campeao {
