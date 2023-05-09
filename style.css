@@ -21,6 +21,11 @@ body {
 
 }
 
+#content{
+  display: block;
+  position: relative;
+}
+
 .posicao {
   display: flex;
   background-color: #111111;
@@ -164,7 +169,7 @@ span {
   margin-top: 100px;
   text-align: center;
   display: block;
-  border: 1px solid green;
+
 
 }
 
@@ -198,25 +203,23 @@ span {
   width: 1750px;
   border: 1px solid lightgrey;
   position: relative;
-  
+
 }
 
 .input-search {
   display: flex;
   cursor: pointer;
-  background-color: red;
   border: 1px solid lightgrey;
 
 
 }
 
-.menu-hidden{
+.menu-hidden {
 
   display: flex;
   height: 50px;
   font-size: 20px;
   cursor: pointer;
-  background-color: blue;
   border: 1px solid lightgrey;
 
 }
@@ -256,7 +259,6 @@ span {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  background-color: green;
 }
 
 #posicao-campeoes ul {
@@ -281,4 +283,14 @@ span {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#posicao-campeoes{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+
+  list-style-type: none;
+  width: 100%;
+  
 }
