@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#cabecalho {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  height: 85px;
+}
+
+body {
+  position: relative;
+  display: block;
+
+}
+
+#content{
+  display: block;
+  position: relative;
+}
+
+.posicao {
+  display: flex;
+  background-color: #111111;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 100vw;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#menu {
+  display: flex;
+  background-color: #111111;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+}
+
+#menu li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+#menu li:hover {
+  border-bottom: 4px solid #00A0BA;
+}
+
+.tamanho-logo {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#pesquisa {
+  border-radius: 50px;
+  height: 30px;
+  border: none;
+}
+
+#pesquisar:focus {
+  outline: none;
+}
+
+.menu-button {
+  border-radius: 15px;
+  width: 140px;
+  height: 40px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#btni {
+  background-color: #282828;
+  color: white;
+}
+
+#btnj {
+  background-color: #0C98AE;
+  color: black;
+}
+
+#btni:hover {
+  background-color: #282828e0;
+}
+
+#btnj:hover {
+  background-color: #0c98aece;
+}
+
+span {
+  color: #AAEBF5;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.img-destaque {
+  display: flex;
+
+}
+
+
+.border {
+  border: 1px solid gray;
+}
+
+
+.decoration-texto-pequeno {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.decoration-ciano {
+  color: #00A0BA;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.decoration-texto {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+#texto-em-destaque {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#destaque-campeao {
+  font-size: 4em;
+  color: black;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: unset;
+  display: block;
+  position: relative;
+}
+
+#texto-principal {
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  margin-top: 100px;
+  text-align: center;
+  display: block;
+
+
+}
+
+#navegacao {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  position: relative;
+}
+
+#destaque {
+  writing-mode: vertical-lr;
+  text-orientation: inherit;
+
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+#centralizacao {
+  position: relative;
+}
+
+
+#menu-pesquisa {
+  top: 50px;
+  margin: auto;
+  display: flex;
+  width: 1750px;
+  border: 1px solid lightgrey;
+  position: relative;
+
+}
+
+.input-search {
+  display: flex;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+
+
+}
+
+.menu-hidden {
+
+  display: flex;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+
+}
+
+.input-search input {
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+}
+
+.input-search input:focus {
+  outline: none;
+}
+
+.input-search div,
+.input-search img {
+  height: 36px;
+  width: 36px;
+}
+
+.input-search div {
+  margin-top: 7px;
+}
+
+.posicao-barra-pesquisa {
+  top: 50%;
+  left: 50%;
+  translate: translate(-50%, -50%);
+  width: 100%;
+  margin: 10px;
+  color: gray;
+}
+
+#lista-pesquisa {
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#posicao-campeoes ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+#posicao-campeoes ul li {
+  width: 250px;
+  height: 150px;
+}
+
+.img-campeao {
+  margin: 20px;
+
+}
+
+#busca-principal {
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#posicao-campeoes{
+
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  background-color: blue;
+  
+}
