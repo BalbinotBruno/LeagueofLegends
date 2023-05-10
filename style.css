@@ -22,7 +22,7 @@ body {
 
 }
 
-#content{
+#content {
   display: block;
   position: relative;
 }
@@ -122,7 +122,7 @@ span {
 
 }
 
-.alinhamento-cabecalho{
+.alinhamento-cabecalho {
   margin: auto;
   list-style-type: none;
   display: block;
@@ -275,7 +275,7 @@ span {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
-  
+
 }
 
 #posicao-campeoes ul li {
@@ -292,12 +292,12 @@ span {
 
 }
 
-.subname-campeao{
+.subname-campeao {
   position: relative;
   display: block;
 }
 
-.nome-campeao{
+.nome-campeao {
 
   display: block;
   width: 100%;
@@ -321,15 +321,15 @@ span {
 }
 
 
-.posicao-campeoes{
+.posicao-campeoes {
   margin-top: 75px;
   display: flex;
   justify-content: center;
   list-style-type: none;
-  
+
 }
 
-.posicao-campeoes-baixo{
+.posicao-campeoes-baixo {
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -337,23 +337,22 @@ span {
 }
 
 
-span:hover{
+span:hover {
   background-color: rgb(34, 168, 192);
 }
 
-.fundo{
+.fundo {
   width: 100%;
 
 }
 
-.img-fundo{
+.img-fundo {
   position: relative
-
 }
 
-.btn-fundo{
+.btn-fundo {
   position: absolute;
-  width:250px;
+  width: 250px;
   height: 75px;
   margin: auto;
   top: 50%;
@@ -363,5 +362,29 @@ span:hover{
   font-weight: bold;
   border: lightgray;
   border-radius: 20px 0px;
+
+}
+
+#footer-lojas-online {
+  display: flex;
+  background-color: #061C25;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+}
+
+#icons-footer {
+  display: flex;
+  width: 150px;
+  height: 50px;
   
+}
+
+.cor-texto-rodape{
+  font-size: 22px;
+  color: lightgray;
+}
+.font-size-rodape{
+  font-size: 146px;
 }
