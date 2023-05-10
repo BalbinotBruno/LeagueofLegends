@@ -11,7 +11,7 @@
 
 #cabecalho {
   display: flex;
-  width: 100vw;
+  width: 100%;
   position: relative;
   height: 85px;
 }
@@ -333,9 +333,35 @@ span {
   display: flex;
   justify-content: center;
   list-style-type: none;
+  margin-bottom: 200px;
 }
 
 
 span:hover{
   background-color: rgb(34, 168, 192);
+}
+
+.fundo{
+  width: 100%;
+
+}
+
+.img-fundo{
+  position: relative
+
+}
+
+.btn-fundo{
+  position: absolute;
+  width:250px;
+  height: 75px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  translate: translate(-50%, -50%);
+  background-color: #13D8F6;
+  font-weight: bold;
+  border: lightgray;
+  border-radius: 20px 0px;
+  
 }
