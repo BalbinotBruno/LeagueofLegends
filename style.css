@@ -122,6 +122,14 @@ span {
 
 }
 
+.alinhamento-cabecalho{
+  margin: auto;
+  list-style-type: none;
+  display: block;
+  justify-content: space-evenly;
+  position: relative;
+}
+
 
 .border {
   border: 1px solid gray;
@@ -143,7 +151,7 @@ span {
 .decoration-texto {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 24px;
 
 }
 
@@ -267,6 +275,7 @@ span {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
+  
 }
 
 #posicao-campeoes ul li {
@@ -275,11 +284,33 @@ span {
 }
 
 .img-campeao {
-  margin: 20px;
+  margin: 0px 20px;
   width: 300px;
   height: 400px;
+  display: block;
+  border-radius: 0px 20px 0px 0px;
 
 }
+
+.subname-campeao{
+  position: relative;
+  display: block;
+}
+
+.nome-campeao{
+
+  display: block;
+  width: 100%;
+  background-color: #25245D;
+  width: 300px;
+  height: 50px;
+  font-size: 32px;
+  margin: 0px 20px 20px 20px;
+  padding: 0px 0px 0px 20px;
+
+}
+
+
 
 #busca-principal {
   margin: auto;
@@ -302,4 +333,9 @@ span {
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+
+
+span:hover{
+  background-color: rgb(34, 168, 192);
 }
