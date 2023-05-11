@@ -407,9 +407,24 @@ footer {
   list-style-type: none;
   justify-content: center;
   position: relative;
-  padding: 40px;
+  padding: 50px;
 }
 
+
+#menu-links{
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18x;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 50px;
+  width: 100%;
+  background-color: #292929;
+}
 
 .tamanho-icon {
   width: 30px;
@@ -422,7 +437,7 @@ footer {
 
   text-align: center;
   margin: auto;
-  padding: 20px;
+  padding: 15px;
 }
 
 #rodape-menu {
@@ -472,8 +487,27 @@ footer {
   height: 250px;
 }
 
-a:hover{
+footer > div > ul > li > a{
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+footer > div > ul > li > a:hover{
   background-color: #333333;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+}
+
+.color-links:hover{
+  background-color: #796b6b6e;
   padding: 10px;
   border-radius: 10px;
 }
