@@ -388,3 +388,21 @@ span:hover {
 .font-size-rodape{
   font-size: 146px;
 }
+
+
+#icons{
+  display: flex;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  padding: 15px;
+}
+
+
+.tamanho-icon{
+  width: 30px;
+}
