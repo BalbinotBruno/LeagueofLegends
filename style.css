@@ -355,9 +355,17 @@ span:hover {
   margin: auto;
   background-color: #13D8F6;
   font-weight: bold;
-  border: lightgray;
   border-radius: 20px 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: white;
+}
 
+#centralizacao-btn{
+  position: fixed;
+  display: contents;
+  background-color: red;
 }
 
 .img-fundo {
