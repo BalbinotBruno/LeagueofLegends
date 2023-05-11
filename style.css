@@ -343,26 +343,35 @@ span:hover {
 
 .fundo {
   width: 100%;
+  background-color: #061C25;
 
 }
 
-.img-fundo {
-  position: relative
-}
 
 .btn-fundo {
   position: absolute;
   width: 250px;
   height: 75px;
   margin: auto;
-  top: 50%;
-  left: 50%;
-  translate: translate(-50%, -50%);
   background-color: #13D8F6;
   font-weight: bold;
   border: lightgray;
   border-radius: 20px 0px;
+  top: 50%;
+  left: 50%;
+  translate: translate(-50%, -50%);
+}
 
+.img-fundo {
+  position: relative;
+  display: grid;
+
+
+}
+
+
+footer {
+  background-color: #111111;
 }
 
 #footer-lojas-online {
@@ -371,38 +380,96 @@ span:hover {
   justify-content: space-around;
   list-style-type: none;
   align-items: center;
-  height: 100%;
+  height: 100px;
+  font-weight: bold;
+
 }
 
 #icons-footer {
   display: flex;
   width: 150px;
   height: 50px;
-  
+
 }
 
-.cor-texto-rodape{
+.cor-texto-rodape {
   font-size: 22px;
   color: lightgray;
 }
-.font-size-rodape{
+
+.font-size-rodape {
   font-size: 146px;
 }
 
 
-#icons{
+#icons {
   display: flex;
-  background-color: red;
   text-align: center;
   margin: auto;
   list-style-type: none;
   justify-content: center;
   position: relative;
-  margin: 20px;
-  padding: 15px;
+  padding: 40px;
 }
 
 
-.tamanho-icon{
+.tamanho-icon {
   width: 30px;
+  margin: 10px;
+}
+
+#riot-icon {
+  width: 120px;
+  display: block;
+
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#rodape-menu {
+  display: flex;
+  margin: auto;
+  list-style-type: none;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.texto-rodape {
+  color: grey;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  justify-content: center;
+  position: relative;
+  padding: 30px;
+  width: 750px;
+  padding: 15px;
+
+
+}
+
+.espacamento-rodape {
+  padding: 10px;
+}
+
+#alinhamento-idade-indicada {
+  display: flex;
+  margin: auto;
+  list-style-type: none;
+  justify-content: center;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 250px;
+  height: 250px;
 }
